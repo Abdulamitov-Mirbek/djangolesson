@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Привет! Сервер работает.")
+    return HttpResponse("Привет! Сервер работает. hiii")
