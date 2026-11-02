@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+from http.client import HTTPResponse
 
+from django.shortcuts import render
 def home(request):
-    return HttpResponse("Привет! Сервер работает. hiii")
+    return HTTPResponse( "server run like")
+# Create your views here.
